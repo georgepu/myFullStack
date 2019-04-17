@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p {
+  background-color: lightblue;
+}
+
+nav {
+  width: 700px;
+  background-color: blue;
+  padding: 5px;
+
+  a {
+    background-color: green;
+    color: #00B7FF;
+    padding: 20px 30px;
+    display: inline-block;
+
+    &:hover {
+      background-color: black;
+      color: red;
+    }
+
+    &:nth-child(4) {
+      position: relative;
+      top: 30px;
+    }
+  }
+}
